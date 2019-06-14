@@ -19,9 +19,3 @@ class RingBuffer:
 
 
 
-x = RingBuffer(3)
-x.append('a')
-x.append('b')
-x.append('c')
-x.append('d')
-print(x.get())
